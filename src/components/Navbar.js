@@ -29,7 +29,7 @@ function Navbar() {
 			<nav className="navbar">
 				<div className="navbar-container">
 					<Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-						Abu Bakr
+						مسجد أبو بكر
 					</Link>
 					{/*dropdown menu*/}
 					<div className="menu-icon" onClick={handleClick}>
