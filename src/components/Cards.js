@@ -1,21 +1,21 @@
 import React from "react";
-import CardItem from "./CardItem";
 import "./Cards.css";
+import CardItem from "./CardItem";
 
 function Cards() {
 	return (
 		<div className="cards">
-			<h1>Check out these epic destinations</h1>
+			<h1>Check out these EPIC Destinations!</h1>
 			<div className="cards-container">
 				<div className="cards-wrapper">
 					<ul className="cards-items">
-						<CardItem src="images/img-9.jpg" text="Explore what we provide" label="Services" path="/services"></CardItem>
-						<CardItem src="images/img-2.jpg" text="Donate to the project" label="Donate" path="/project"></CardItem>
+						<CardItem src="images/img-9.jpg" text="Explore the hidden waterfall deep inside the Amazon Jungle" label="Adventure" path="/services" />
+						<CardItem src="images/img-2.jpg" text="Travel through the Islands of Bali in a Private Cruise" label="Luxury" path="/project" />
 					</ul>
 					<ul className="cards-items">
-						<CardItem src="images/img-3.jpg" text="Explore what we provide" label="Services" path="/services"></CardItem>
-						<CardItem src="images/img-4.jpg" text="Donate to the project" label="Donate" path="/project"></CardItem>
-						<CardItem src="images/img-8.jpg" text="Donate to the project" label="Donate" path="/project"></CardItem>
+						<CardItem src="images/img-3.jpg" text="Set Sail in the Atlantic Ocean visiting Uncharted Waters" label="Mystery" path="/services" />
+						<CardItem src="images/img-4.jpg" text="Experience Football on Top of the Himilayan Mountains" label="Adventure" path="/products" />
+						<CardItem src="images/img-8.jpg" text="Ride through the Sahara Desert on a guided camel tour" label="Adrenaline" path="/donate" />
 					</ul>
 				</div>
 			</div>
