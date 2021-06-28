@@ -8,10 +8,10 @@ function HeroSection() {
 		<div className="hero-container">
 			<video src="/videos/video-1.mp4" autoPlay loop muted></video>
 			<h1>Prayer Times</h1>
-			<p>لا تنسى ذكر الله</p>
+			<p className="arabic-text">لا تنسى ذكر الله</p>
 			<div className="hero-btns">
 				<Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
-					GET STARTED
+					PRAYER TIMES
 				</Button>
 				<Button className="btns" buttonStyle="btn--primary" buttonSize="btn--large">
 					DONATE

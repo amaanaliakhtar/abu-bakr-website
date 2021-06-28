@@ -25,6 +25,8 @@
 	cursor: pointer;
 	text-decoration: none;
 	font-size: 2rem;
+	font-family: "Markazi Text", serif;
+	font-weight: bold;
 	display: flex;
 	align-items: center;
 }
